@@ -1,0 +1,25 @@
++---------------------------------------+
+|                Pelicula               |
++---------------------------------------+
+| - titulo: str                         |
+| - genero: str                         |
+| - precio_butaca: float                |
++---------------------------------------+
+| + __init__(t, g, p)                   |
+| # getters/setters...                  |
++---------------------------------------+
+
++---------------------------------------------------------------+      -->    +----------+
+|                              Cine                             |             | Pelicula |
++---------------------------------------------------------------+             +----------+
+| - nombre: str                                                 |
+| - direccion: str                                              |
+| - cartelera: list[Pelicula]                                   |
++---------------------------------------------------------------+
+| + __init__(n, d)                                              |
+| + __pos__(): Cine              # Simula ++                    |
+| + agregar_pelicula(p: Pelicula): void                         |
+| + mostrar_peliculas(genero: str=None, indice: int=None): void |
+| + ordenar_peliculas_alfabeticamente(): void                   |
+| + mostrar_cartelera(): void                                   |
++---------------------------------------------------------------+

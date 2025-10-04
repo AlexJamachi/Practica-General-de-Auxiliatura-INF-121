@@ -1,0 +1,14 @@
++----------------------------------------+
+|                    Bus                 |
++----------------------------------------+
+| - capacidad_total: int                 |
+| - pasajeros_a_bordo: int               |
+| - dinero_acumulado: float              |
+| - COSTO_PASAJE: final float            |
++----------------------------------------+
+| + __init__(capacidad_total: int)       |
+| + subir_pasajeros(cantidad: int): void |
+| + cobrar_pasajes(): void               |
+| + mostrar_asientos_disponibles(): void |
+| + mostrar_estado_general(): void       |
++----------------------------------------+

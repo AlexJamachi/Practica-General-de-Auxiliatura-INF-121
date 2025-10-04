@@ -1,0 +1,12 @@
++-------------------------------------------------+
+|                      Matriz                     |
++-------------------------------------------------+
+| - matriz: list[list[float]]                     |
+| - DIMENSION: final int                          |
++-------------------------------------------------+
+| + __init__(valores: list[list[float]] = None)   |
+| + sumar(otra: Matriz): Matriz                   |
+| + restar(otra: Matriz): Matriz                  |
+| + es_igual(otra: Matriz): boolean               |
+| + mostrar(): void                               |
++-------------------------------------------------+

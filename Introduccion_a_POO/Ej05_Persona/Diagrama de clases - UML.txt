@@ -1,0 +1,15 @@
++-------------------------------------------------------------+
+|                           Persona                           |
++-------------------------------------------------------------+
+| - nombre: String                                            |
+| - paterno: String                                           |
+| - materno: String                                           |
+| - edad: int                                                 |
+| - ci: String                                                |
++-------------------------------------------------------------+
+| + Persona(nombre, paterno, materno, edad, ci)               |
+| + mostrarDatos(): void                                      |
+| + esMayorDeEdad(): boolean                                  |
+| + modificarEdad(nuevaEdad: int): void                       |
+| + getPaterno(): String                                      |
++-------------------------------------------------------------+

@@ -1,0 +1,14 @@
++-----------------------------------------------------------------+
+|                           Videojuego                            |
++-----------------------------------------------------------------+
+| - nombre: String                                                |
+| - plataforma: String                                            |
+| - cantidadJugadores: int                                        |
++-----------------------------------------------------------------+
+| + Videojuego()                                                  |
+| + Videojuego(nombre: String, plataforma: String)                |
+| + Videojuego(nombre: String, plataforma: String, cantidad: int) |
+| + agregarJugadores(): void                                      |
+| + agregarJugadores(cantidad: int): void                         |
+| + mostrar(): void                                               |
++-----------------------------------------------------------------+

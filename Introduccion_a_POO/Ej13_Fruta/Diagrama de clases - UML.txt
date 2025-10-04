@@ -1,0 +1,19 @@
++-------------------------------------------------------------+
+|              Fruta implements Comparable<Fruta>             |
++-------------------------------------------------------------+
+| - nombre: String                                            |
+| - tipo: String                                              |
+| - nroVitaminas: int                                         |
+| - vitaminas: ArrayList<String>                              |
++-------------------------------------------------------------+
+| + Fruta()                                                   |
+| + Fruta(nombre: String, tipo: String)                       |
+| + Fruta(nombre: String, tipo: String, vits: String[])       |
+| + agregarVitamina(vitamina: String): void                   |
+| + getNombre(): String                                       |
+| + getNroVitaminas(): int                                    |
+| + tieneVitaminaC(): boolean                                 |
+| + mostrarVitaminas(): void                                  |
+| + mostrarDatosCompletos(): void                             |
+| + compareTo(otra: Fruta): int                               |
++-------------------------------------------------------------+

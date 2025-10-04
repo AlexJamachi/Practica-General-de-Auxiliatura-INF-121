@@ -1,0 +1,45 @@
++-------------------------------------------------------------+
+|                             Mp4                             |
++-------------------------------------------------------------+
+| - marca: String                                             |
+| - capacidadGb: double                                       |
+| - canciones: ArrayList<Cancion>                             |
+| - videos: ArrayList<Video>                                  |
++-------------------------------------------------------------+
+| + Mp4(marca: String, capacidadGb: double)                   |
+| + agregar(c: Cancion): void                                 |
+| + agregar(v: Video): void                                   |
+| + borrarCancion(nombre: String): void                       |
+| + borrarCancion(artista: String): void                      |
+| + borrarCancion(nombre: String, pesoKb: double): void       |
+| + mostrarCapacidadDisponible(): void                        |
+| + mostrarContenido(): void                                  |
++-------------------------------------------------------------+
+      |◆------------------------------------- 0..*
+      |
+      |
+      |                                 +------------------------------------------------------------+
+      +-------------------------------◆ |                           Cancion                          |
+                                    0..*|------------------------------------------------------------|
+                                        | - nombre: String                                           |
+                                        | - artista: String                                          |
+                                        | - pesoKb: double                                           |
+                                        |------------------------------------------------------------|
+                                        | + Cancion(nombre: String, artista: String, pesoKb: double) |
+                                        | + getNombre(): String                                      |
+                                        | + getArtista(): String                                     |
+                                        | + getPesoKb(): double                                      |
+                                        +------------------------------------------------------------+
+
++----------------------------------------------------------+
+|                           Video                          |
+|----------------------------------------------------------|
+| - nombre: String                                         |
+| - artista: String                                        |
+| - pesoMb: double                                         |
+|----------------------------------------------------------|
+| + Video(nombre: String, artista: String, pesoMb: double) |
+| + getNombre(): String                                    |
+| + getArtista(): String                                   |
+| + getPesoMb(): double                                    |
++----------------------------------------------------------+

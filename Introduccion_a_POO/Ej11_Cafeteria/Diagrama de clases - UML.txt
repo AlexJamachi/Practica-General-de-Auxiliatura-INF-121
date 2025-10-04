@@ -1,0 +1,27 @@
++------------------------------------------+
+|                  Pedido                  |
++------------------------------------------+
+| - numero: int                            |
+| - estado: String                         |
++------------------------------------------+
+| + __init__(numero: int, estado: String)  |
+| + get_numero(): int                      |
+| + set_numero(numero: int): void          |
+| + get_estado(): String                   |
+| + set_estado(estado: String): void       |
+| + mostrar(): void                        |
++------------------------------------------+
+
++---------------------------------------------+
+|                   Producto                  |
++---------------------------------------------+
+| - nombre: String                            |
+| - precio: float                             |
++---------------------------------------------+
+| + __init__(nombre: String, precio: float)   |
+| + get_nombre(): String                      |
+| + set_nombre(nombre: String): void          |
+| + get_precio(): float                       |
+| + set_precio(precio: float): void           |
+| + mostrar(): void                           |
++---------------------------------------------+

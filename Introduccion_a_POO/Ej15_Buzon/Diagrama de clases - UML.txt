@@ -1,0 +1,28 @@
++--------------------------------------------------------+
+|                         Carta                          |
++--------------------------------------------------------+
+| - codigo: String                                       |
+| - remitente: String                                    |
+| - destinatario: String                                 |
+| - descripcion: String                                  |
++--------------------------------------------------------+
+| + __init__(codigo, remitente, destinatario, desc)      |
+| + get_codigo(): String                                 |
+| + get_remitente(): String                              |
+| + get_destinatario(): String                           |
+| + get_descripcion(): String                            |
+| + mostrar(): void                                      |
++--------------------------------------------------------+
+
++-----------------------------------------------------+      <>------>      +-------+
+|                        Buzon                        |                     | Carta |
++-----------------------------------------------------+                     +-------+
+| - nro: int                                          |
+| - cartas: list[Carta]                               |
++-----------------------------------------------------+
+| + __init__(nro: int)                                |
+| + agregar_carta(carta: Carta): void                 |
+| + eliminar_carta_por_codigo(codigo: String): bool   |
+| + get_cartas(): list[Carta]                         |
+| + mostrar_contenido(): void                         |
++-----------------------------------------------------+

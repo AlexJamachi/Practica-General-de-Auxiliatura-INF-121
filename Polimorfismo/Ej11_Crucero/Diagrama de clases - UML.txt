@@ -1,0 +1,31 @@
++-------------------------------------------------+
+|                     Pasajero                    |
++-------------------------------------------------+
+| - nombre: str                                   |
+| - edad: int                                     |
+| - genero: str                                   |
+| - nro_habitacion: int                           |
+| - costo_pasaje: float                           |
++-------------------------------------------------+
+| + __init__(...)                                 |
+| + __pos__(): void         # Simula ++ (leer)    |
+| + __neg__(): void         # Simula -- (mostrar) |
+| + get_costo_pasaje(): float                     |
+| + get_genero(): str                             |
++-------------------------------------------------+
+
++--------------------------------------------------+      <>------>      +----------+
+|                      Crucero                     |                     | Pasajero |
++--------------------------------------------------+                     +----------+
+| - nombre: str                                    |
+| - pais_origen: str                               |
+| - pais_destino: str                              |
+| - pasajeros: list[Pasajero]                      |
++--------------------------------------------------+
+| + __init__(...)                                  |
+| + __neg__(): void         # Simula -- (mostrar)  |
+| + __eq__(other): bool    # Compara costo total   |
+| + __add__(other): bool   # Compara nro pasajeros |
+| + __sub__(other): void   # Muestra stats genero  |
+| + agregar_pasajero(p: Pasajero): void            |
++--------------------------------------------------+

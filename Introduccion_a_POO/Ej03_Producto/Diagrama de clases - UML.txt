@@ -1,0 +1,13 @@
++----------------------------------------------------------+
+|                         Producto                         |
++----------------------------------------------------------+
+| - nombre: String                                         |
+| - precio: double                                         |
+| - stock: int                                             |
++----------------------------------------------------------+
+| + Producto(nombre: String, precio: double, stock: int)   |
+| + vender(cantidad: int): void                            |
+| + reabastecer(cantidad: int): void                       |
+| + getStock(): int                                        |
+| + mostrarProducto(): void                                |
++----------------------------------------------------------+

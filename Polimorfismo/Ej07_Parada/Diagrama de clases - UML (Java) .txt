@@ -1,0 +1,15 @@
++---------------------------------------------------------------------+
+|                                   Parada                            |
++---------------------------------------------------------------------+
+| - nombreP: String                                                   |
+| - admins: String[]                                                  |
+| - autos: String[][]                                                 |
+| - nroAdmins: int                                                    |
+| - nroAutos: int                                                     |
++---------------------------------------------------------------------+
+| + Parada()                                                          |
+| + Parada(nombreP: String)                                           |
+| + adicionar(admin: String): void                                    |
+| + adicionar(modelo: String, conductor: String, placa: String): void |
+| + mostrar(): void                                                   |
++---------------------------------------------------------------------+
