@@ -1,2 +1,4 @@
 # Practica-General-de-Auxiliatura-INF-121
-Paralelo E
+## ALEX ARTURO JAMACHI CONDORI
+### C.I.: 13764342
+### R.U.: 1886122
