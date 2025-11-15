@@ -1,0 +1,42 @@
++-------------------------------------+ <>---- +-----------------------------------+
+| SistemaEntrada                      |        | Facultad                          |
++-------------------------------------+ 1    * +-----------------------------------+
+| - facultades: ArrayList<Facultad>   |        | - nombre: String                  |
+| - registroBailarines: ArrayList<B>  |        | - fraternidades: ArrayList<F>     |
++-------------------------------------+        +-----------------------------------+
+| + registrarBailarin(b, f): void     |        | + Facultad(n)                     |
+| + addFacultad(f): void              |        | + addFraternidad(f): void         |
+| + buscarBailarin(ci): Bailarin      |        | + mostrarFraternidades(): void    |
+| + verificarDuplicado(b): boolean    |        +-----------------------------------+
+| + mostrarBailarinesPorFraternidad(f)|                  |
++-------------------------------------+                  |
+                                                       <+>
+                                                         | 1
+                                                         | *
+                                     +------------------------------------------+
+                                     | Fraternidad                              |
+                                     +------------------------------------------+
+                                     | - nombre: String                         |
+                                     | - encargado: Bailarin                    |
+                                     | - bailarines: ArrayList<Bailarin>        |
+                                     +------------------------------------------+
+                                     | + Fraternidad(n, e)                      |
+                                     | + addBailarin(b): void                   |
+                                     | + mostrarBailarines(): void              |
+                                     +------------------------------------------+
+                                                 |
+                                                 |
+                                                 <+>
+                                                   | 1
+                                                   | *
++---------------------------------------+
+| Bailarin                              |
++---------------------------------------+
+| - nombre: String                      |
+| - edad: int                           |
+| - ci: String                          |
++---------------------------------------+
+| + Bailarin(n, e, c)                   |
+| + getCi(): String                     |
+| + mostrar(): void                     |
++---------------------------------------+

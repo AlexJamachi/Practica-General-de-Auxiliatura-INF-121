@@ -1,0 +1,14 @@
++----------------------------------------------+ <>---- +------------------------------+
+| Empresa                                      | 1    * | Empleado                     |
++----------------------------------------------+        +------------------------------+
+| - nombre: String                             |        | - nombre: String             |
+| - empleados: ArrayList<Empleado>             |        | - puesto: String             |
++----------------------------------------------+        | - salario: double            |
+| + Empresa(n: String)                         |        +------------------------------+
+| + agregarEmpleado(e: Empleado): void         |        | + Empleado(n, p, s)          |
+| + mostrarInformacion(): void                 |        | + getNombre(): String        |
+| + buscarEmpleado(n: String): Empleado        |        | + getSalario(): double       |
+| + eliminarEmpleado(n: String): void          |        | + mostrar(): void            |
+| + calcularPromedioSalarial(): double         |        +------------------------------+
+| + listarSalariosMayoresA(monto: double): void|
++----------------------------------------------+

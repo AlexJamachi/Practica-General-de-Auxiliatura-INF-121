@@ -1,0 +1,10 @@
++------------------------------------------+ <>---- +---------------------------+
+| Hospital                                 |        | Doctor                    |
++------------------------------------------+ 1    * +---------------------------+
+| - nombre: String                         |        | - nombre: String          |
+| - doctores: ArrayList<Doctor>            |        | - especialidad: String    |
++------------------------------------------+        +---------------------------+
+| + Hospital(nombre: String)               |        | + Doctor(n, e):           |
+| + asignarDoctor(d: Doctor): void         |        | + getNombre(): String     |
+| + mostrarDoctores(): void                |        | + getEspecialidad(): String|
++------------------------------------------+        +---------------------------+

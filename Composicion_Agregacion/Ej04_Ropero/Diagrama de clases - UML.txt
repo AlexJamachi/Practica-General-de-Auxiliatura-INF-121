@@ -1,0 +1,12 @@
++-------------------------------------------+ <+>---- +---------------------------+
+| Ropero                                    | 1    * | Ropa                      |
++-------------------------------------------+        +---------------------------+
+| - material: String                        |        | - tipo: String            |
+| - ropa: ArrayList<Ropa>                   |        | - material: String        |
+| - nroRopas: int                           |        +---------------------------+
++-------------------------------------------+        | + Ropa(t, m)              |
+| + Ropero(material: String)                |        | + getTipo(): String       |
+| + adicionarPrenda(p: Ropa): void          |        | + getMaterial(): String   |
+| + eliminarPrenda(tipo, material): void    |        | + mostrar(): void         |
+| + mostrarPrendas(tipo, material): void    |        +---------------------------+
++-------------------------------------------+

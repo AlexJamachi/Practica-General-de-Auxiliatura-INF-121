@@ -1,0 +1,30 @@
++------------------------------------------+ <+>---- +---------------------------+
+| Computadora                              |        | RAM                       |
++------------------------------------------+        +---------------------------+
+| - anioEnsamblaje: int                    |        | - capacidad: int          |
+| - ram: RAM                               |        | - marca: String           |
+| - disco: DiscoDuro                       |        | - tipo: String            |
++------------------------------------------+        +---------------------------+
+| + Computadora(anio, ramCap, ...)         |        | + RAM(cap, marca, tipo)   |
+| + encender(): void                       |        | + setCapacidad(cap): void |
+| + mostrar(): void                        |        | + getCapacidad(): int     |
+| + modificarCapacidadRam(nuevaCap): void  |        | ... (getters/setters)     |
+| + modificarCapacidadDisco(nuevaCap): void|        +---------------------------+
++------------------------------------------+
+      |
+      |
+      <+>
+      |
+      |
++------------------------------------------+
+| DiscoDuro                                |
++------------------------------------------+
+| - capacidad: int                         |
+| - marca: String                          |
+| - modelo: String                         |
++------------------------------------------+
+| + DiscoDuro(cap, marca, modelo)          |
+| + setCapacidad(cap): void                |
+| + getCapacidad(): int                    |
+| ... (getters/setters)                    |
++------------------------------------------+

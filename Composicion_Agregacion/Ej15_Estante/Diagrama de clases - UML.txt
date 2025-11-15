@@ -1,0 +1,14 @@
++------------------------------------------+ <>---- +-------------------------------+
+| Estante                                  | 1    * | Libro                         |
++------------------------------------------+        +-------------------------------+
+| - tipoMaterial: String                   |        | - titulo: String              |
+| - tamanio: String                        |        | - edicion: String             |
+| - capacidadMaxima: int                   |        | - nombreAutor: String         |
+| - libros: ArrayList<Libro>               |        +-------------------------------+
++------------------------------------------+        | + Libro(t, e, a)              |
+| + Estante(m, t, cap)                     |        | + getTitulo(): String         |
+| + agregarLibro(l: Libro): void           |        | + getNombreAutor(): String    |
+| + eliminarLibro(titulo: String): void    |        | + mostrar(): void             |
+| + mostrarLibrosAutor(autor: String): void|        +-------------------------------+
+| + mostrarEstante(): void                 |
++------------------------------------------+

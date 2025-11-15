@@ -1,0 +1,17 @@
++------------------------------------------+
+| CuentaBancaria                           |
++------------------------------------------+
+| - numeroCuenta: String                   |
+| - titular: String                        |
+| - saldo: double                          |
++------------------------------------------+
+| + CuentaBancaria(n, t, s)                |
+| + depositar(monto: double): void         |
+| + retirar(monto: double): void           |
+| + mostrarInfo(): void                    |
++------------------------------------------+
+
++------------------------------------------+
+| <<Exception>>                            |
+| FondosInsuficientesException             |
++------------------------------------------+
