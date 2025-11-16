@@ -1,0 +1,24 @@
++-------------------------------------------------+ <+>---- +---------------------------+
+| Inventario                                      | 1    * | Producto                  |
++-------------------------------------------------+        +---------------------------+
+| - productos: ArrayList<Producto>                |        | - codigo: String          |
++-------------------------------------------------+        | - nombre: String          |
+| + Inventario()                                  |        | - precio: double          |
+| + agregarProducto(p: Producto): void            |        | - stock: int              |
+| + buscarProducto(codigo: String): Producto      |        +---------------------------+
+| + venderProducto(codigo, cantidad): void        |        | + Producto(c, n, p, s)    |
+| + mostrarInventario(): void                     |        | + getCodigo(): String     |
++-------------------------------------------------+        | + vender(cant): void      |
+                                                           +---------------------------+
++----------------------------------+
+| <<Exception>>                    |
+| ProductoExistenteException       |
++----------------------------------+
++----------------------------------+
+| <<Exception>>                    |
+| ProductoNoEncontradoException    |
++----------------------------------+
++----------------------------------+
+| <<Exception>>                    |
+| StockInsuficienteException       |
++----------------------------------+

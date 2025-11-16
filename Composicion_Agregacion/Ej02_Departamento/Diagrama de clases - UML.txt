@@ -1,0 +1,14 @@
++------------------------------------------+ <>---- +------------------------------+
+| Departamento                             | 1    * | Empleado                     |
++------------------------------------------+        +------------------------------+
+| - nombre: String                         |        | - nombre: String             |
+| - area: String                           |        | - cargo: String              |
+| - empleados: ArrayList<Empleado>         |        | - sueldo: double             |
++------------------------------------------+        +------------------------------+
+| + Departamento(n, a)                     |        | + Empleado(n, c, s)          |
+| + addEmpleado(e: Empleado): void         |        | + getNombre(): String        |
+| + mostrarEmpleados(): void               |        | + setSueldo(s): void         |
+| + cambioSalario(porcentaje: double): void|        | + mostrar(): void            |
+| + buscarEmpleado(e: Empleado): boolean   |        +------------------------------+
+| + moverEmpleados(otroDep: Departamento)  |
++------------------------------------------+

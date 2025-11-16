@@ -1,0 +1,47 @@
++------------------------------------------+           +---------------------------------------------+
+| Persona                                  | <|------ | Speaker                                     |
++------------------------------------------+          +---------------------------------------------+
+| + nombre: String                         |          | + especialidad: String                      |
+| + apellido: String                       |          +---------------------------------------------+
+| + edad: int                              |          | + Speaker(n, a, e, c, esp)                  |
+| + ci: int                                |          | + getCi(): int                              |
++------------------------------------------+          | + mostrar(): void                           |
+| + Persona(n, a, e, c)                    |          +---------------------------------------------+
+| + getNombreCompleto(): String            |
++------------------------------------------+
+      ^
+      |
+| |
++------------------------------------------+
+| Participante                             |
++------------------------------------------+
+| + nroTicket: int                         |
++------------------------------------------+
+| + Participante(n, a, e, c, nro)          |
+| + getCi(): int                           |
+| + mostrar(): void                        |
++------------------------------------------+
+
+
++------------------------------------------+ <>---- +---------------------------------------------+
+| Evento                                   | 1    * | Charla                                      |
++------------------------------------------+        +---------------------------------------------+
+| - nombre: String                         |        | + lugar: String                             |
+| - charlas: ArrayList<Charla>             |        | + nombreCharla: String                      |
+| - nc: int                                |        | + S: Speaker                                |
++------------------------------------------+        | + P: ArrayList<Participante>                |
+| + Evento(n: String)                      |        | + np: int                                   |
+| + addCharla(c: Charla): void             |        +---------------------------------------------+
+| + edadPromedioParticipantes(): double    |        | + Charla(l, nC, s)                          |
+| + buscarPersona(n, a): void              |        | + addParticipante(p: Participante): void    |
+| + eliminarCharlasSpeaker(ci: int): void  |        | + getCiSpeaker(): int                       |
+| + ordenarCharlasPorParticipantes(): void |        | + getNombreCharla(): String                 |
+| + mostrarEvento(): void                  |        | + mostrar(): void                           |
++------------------------------------------+        +---------------------------------------------+
+                                                         ^
+                                                         |
+                                                         <>
+                                                         | *
+                                  +------------------------------------------+
+                                  | Participante                             |
+                                  +------------------------------------------+
