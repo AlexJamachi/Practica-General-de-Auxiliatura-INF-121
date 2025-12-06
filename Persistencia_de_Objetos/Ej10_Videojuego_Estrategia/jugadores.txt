@@ -1,0 +1,12 @@
+[
+  {
+    "nombre": "Slayer",
+    "nivel": 55,
+    "puntaje": 9000
+  },
+  {
+    "nombre": "Noob",
+    "nivel": 1,
+    "puntaje": 0
+  }
+]

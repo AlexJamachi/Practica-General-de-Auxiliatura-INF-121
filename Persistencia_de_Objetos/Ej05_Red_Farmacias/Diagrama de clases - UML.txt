@@ -1,0 +1,17 @@
++-----------------------+
+|          Main         |
++-----------------------+
+            |
+            v
++-----------------------------+      +------------------+      +-------------------+
+|        ArchFarmacia         |      |     Farmacia     |      |    Medicamento    |
++-----------------------------+      +------------------+      +-------------------+
+| - na: String                |<>----| - nombre: String |<>----| - nombre: String  |
+| - gson: Gson                |      | - sucursal: int  |      | - tipo: String    |
++-----------------------------+      | - medicamentos[] |      | - precio: double  |
+| + adicionar(f)              |      +------------------+      +-------------------+
+| + mostrarTosSucursal(x)     |      | + buscarMed(x)   |      | + getters         |
+| + buscarPorTipo(t)          |      +------------------+      +-------------------+
+| + ordenarPorDireccion()     |
+| + moverMedicamentos(t,y,z)  |
++-----------------------------+

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nombre": "Municipal",
+    "animales": []
+  },
+  {
+    "id": 2,
+    "nombre": "Privado",
+    "animales": [
+      {
+        "especie": "Leon",
+        "nombre": "Simba",
+        "cantidad": 1
+      }
+    ]
+  }
+]

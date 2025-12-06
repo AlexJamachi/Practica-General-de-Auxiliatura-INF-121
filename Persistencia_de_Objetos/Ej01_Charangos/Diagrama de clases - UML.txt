@@ -1,0 +1,20 @@
++-----------------------+
+|          Main         |
++-----------------------+
+| + main(args)          |
++-----------------------+
+            |
+            v
++-----------------------------+         +-------------------------+
+|       ArchivoCharango       |         |        Charango         |
++-----------------------------+         +-------------------------+
+| - ruta: String              |<>-------| - material: String      |
+| - gson: Gson                |         | - nroCuerdas: int       |
++-----------------------------+         | - cuerdas: boolean[]    |
+| + guardar(lista)            |         +-------------------------+
+| + listar(): List<Charango>  |         | + getters/setters       |
+| + eliminarDefectuosos()     |         | + countFalses(): int    |
+| + buscarPorMaterial(mat)    |         +-------------------------+
+| + buscar10Cuerdas()         |
+| + ordenarPorMaterial()      |
++-----------------------------+

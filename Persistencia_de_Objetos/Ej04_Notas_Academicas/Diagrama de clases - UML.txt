@@ -1,0 +1,16 @@
++-----------------------+
+|          Main         |
++-----------------------+
+            |
+            v
++-----------------------------+      +------------------+      +----------------+
+|          ArchiNota          |      |       Nota       |      |   Estudiante   |
++-----------------------------+      +------------------+      +----------------+
+| - nombreArchi: String       |<>----| - materia: String|<>----| - ru: int      |
+| - gson: Gson                |      | - notaFinal: int |      | - nombre: Str  |
++-----------------------------+      | - est: Estudiante|      | - pat: Str     |
+| + agregarNota(n)            |      +------------------+      | - mat: Str     |
+| + promedioTotal()           |                                | - edad: int    |
+| + mejorNota()               |                                +----------------+
+| + eliminarPorMateria(m)     |
++-----------------------------+

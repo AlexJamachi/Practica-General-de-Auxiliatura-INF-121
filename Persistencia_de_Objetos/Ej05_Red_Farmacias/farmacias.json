@@ -1,0 +1,50 @@
+[
+  {
+    "nombreFarmacia": "FarmaCorp",
+    "sucursal": 1,
+    "direccion": "Av. Arce",
+    "medicamentos": [
+      {
+        "nombre": "Tapsin",
+        "tipo": "Resfrio",
+        "precio": 5.0
+      }
+    ]
+  },
+  {
+    "nombreFarmacia": "FarmaCorp",
+    "sucursal": 2,
+    "direccion": "El Prado",
+    "medicamentos": [
+      {
+        "nombre": "Jarabe",
+        "tipo": "Tos",
+        "precio": 20.0
+      }
+    ]
+  },
+  {
+    "nombreFarmacia": "FarmaCorp",
+    "sucursal": 1,
+    "direccion": "Av. Arce",
+    "medicamentos": [
+      {
+        "nombre": "Tapsin",
+        "tipo": "Resfrio",
+        "precio": 5.0
+      }
+    ]
+  },
+  {
+    "nombreFarmacia": "FarmaCorp",
+    "sucursal": 2,
+    "direccion": "El Prado",
+    "medicamentos": [
+      {
+        "nombre": "Jarabe",
+        "tipo": "Tos",
+        "precio": 20.0
+      }
+    ]
+  }
+]

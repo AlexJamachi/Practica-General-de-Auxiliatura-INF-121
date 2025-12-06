@@ -1,0 +1,17 @@
++-----------------------+
+|          Main         |
++-----------------------+
+            |
+            v
++-----------------------------+         +-------------------------+
+|       ArchivoProducto       |         |        Producto         |
++-----------------------------+         +-------------------------+
+| - nomA: String              |<>-------| - codigo: int           |
+| - gson: Gson                |         | - nombre: String        |
++-----------------------------+         | - precio: float         |
+| + ArchivoProducto(n)        |         +-------------------------+
+| + guardaProducto(p)         |         | + getters/setters       |
+| + buscaProducto(c): Prod    |         +-------------------------+
+| + calcularPromedio()        |
+| + mostrarMasCaro()          |
++-----------------------------+

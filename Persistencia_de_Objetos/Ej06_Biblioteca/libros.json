@@ -1,0 +1,12 @@
+[
+  {
+    "codLibro": "L1",
+    "titulo": "Java",
+    "precio": 100.0
+  },
+  {
+    "codLibro": "L2",
+    "titulo": "Python",
+    "precio": 80.0
+  }
+]

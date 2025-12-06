@@ -1,0 +1,17 @@
++-----------------------+
+|          Main         |
++-----------------------+
+            |
+            v
++-----------------------------+         +-------------------------+
+|      ArchivoTrabajador      |         |       Trabajador        |
++-----------------------------+         +-------------------------+
+| - nombreArch: String        |<>-------| - nombre: String        |
+| - gson: Gson                |         | - carnet: int           |
++-----------------------------+         | - salario: double       |
+| + crearArchivo()            |         +-------------------------+
+| + guardarTrabajador(t)      |         | + getters/setters       |
+| + aumentarSalario(a, t)     |         | + toString()            |
+| + buscarMayorSalario()      |         +-------------------------+
+| + ordenarPorSalario()       |
++-----------------------------+
